@@ -1,0 +1,24 @@
+.main{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.wrapper {
+    width: 1254px;
+    margin: 0 auto;
+    display: flex;
+}
+
+@media screen and (max-width: 1400px) {
+    .wrapper {
+        width:100%;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

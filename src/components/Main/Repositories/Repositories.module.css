@@ -1,0 +1,82 @@
+.repositories {
+    width: 877px;
+    margin-left: 87px;
+}
+
+.title {
+    margin-top: 28px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.wrapper__pagination {
+    width: 877px;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.paginationMargin {
+    margin: 0;
+}
+
+.text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #808080;
+    margin-right: 15px;
+}
+
+.wrapper__repositories :hover {
+    cursor: pointer;
+    background: #f2f2f2;
+}
+
+.wrapper__title :hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1400px) {
+    .repositories {
+        width:80%
+    }
+    .wrapper__pagination {
+        width:80%;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .repositories {
+        margin: 0;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .wrapper__pagination {
+        flex-direction: column;
+    }
+
+    .text {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .repositories {
+        width: 280px;
+    }
+    .wrapper__pagination {
+        width: 280px;
+    }
+}
